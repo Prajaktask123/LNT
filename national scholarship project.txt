@@ -1,0 +1,184 @@
+aboutus.component.html
+======================================================================
+<br>
+<h1> About Us</h1>
+<hr>
+<p><b>National Scholarships Portal</b> is one-stop solution through which various services starting from student application, application receipt, processing, sanction and disbursal of various scholarships to Students are enabled.<br> National Scholarships Portal is taken as Mission Mode Project under National e-Governance Plan (NeGP).</p>
+<br>
+<div class="Headpart">Vision</div>
+<p>National Scholarships Portal is one-stop solution through which various services starting from student application, application receipt, processing, sanction and disbursal of various scholarships to Students are enabled.
+    This initiative aims at providing a Simplified, Mission-oriented, Accountable, Responsive & Transparent <b>'SMART'</b> System for faster & effective disposal of Scholarships applications and delivery of funds directly into beneficiaries account without any leakages.</p>
+<br>
+<div class="Headpart">Mission</div>
+<p>The Mission Mode Project (MMP) of National Scholarships Portal under the National e-Governance Plan aims at providing common electronic portal for implementing various Scholarships schemes launched by Union Government, State Government and Union Territories across the country.</p>
+<br>
+<div class="Headpart">Objectives</div>
+<p>Ensure timely disbursement of Scholarships to studentsProvide a common portal for various Scholarships schemes of Central and State GovernmentsCreate a transparent database of scholarsAvoid duplication in processingHarmonisation of different Scholarships schemes & normsApplication of Direct Benefit Transfer.</p>
+<br>
+<div class="Headpart">Benefits</div>
+<ul style="list-style-type:disc;">
+<li>Simplified process for the students</li>
+<li> Improved transparency</li>
+<li>Helps in standardisation</li>
+<li>Serves as a decision support system (DSS) for Ministries and departments as up-to date information will be available on demand.</li>
+</ul>
+====================================================================================
+aboutus.component.css
+===========================================================================
+h1{
+    color: orange;
+    text-align: center;
+}
+p{
+    text-align: left;
+}
+.Headpart{
+    color: rgb(26, 153, 121);
+    font-size: 20px;
+}
+ul{
+    text-align: left;
+}
+===============================================================================
+ contactus.component.html
+==============================================================================
+<h1>Contact Us</h1>
+<br>
+<table align="center">
+    <tr>
+      <th style="width:70%">Mail Support</th>
+      <th>HelpLine Number</th>
+    </tr>
+    <tr>
+      <td><a style="color: blue;" href="helpdesk">helpdesk@nsp.gov.in</a></td>
+      <td>0120-6619540</td> 
+    </tr>
+    <tr>
+        <td><a style="color: blue;" href="helpdesk">nationalscholarship@.nsp.gov.in</a></td>
+        <td>0130-7823450</td>
+    </tr>
+    <tr>
+        <td><a style="color: blue;" href="helpdesk">fellowshiphelpline.ugc@gmail.com</a></td>
+        <td>1800-113-355</td>
+    </tr>
+    <tr>
+        <td><a style="color: blue;" href="helpdesk">gssec.ugc@nic.in</a></td>
+        <td>1800-111-656</td>
+    </tr>
+  </table><br><br><br>
+    
+      
+       
+       <div style = "background-color:rgb(151, 150, 150); clear:both">
+          <footer>
+            © Copyright 2018 National Scholarship Portal Site Best Viewed In IE-6+, Mozilla Firefox, Chrome, Safari etc..
+          </footer>
+       </div>
+============================================================================
+contactus.component.css
+========================================================================
+h1{
+    color: orange;
+    text-align: center;
+}
+table{
+    width: 50%;
+}
+footer{
+    text-align: center;
+}
+th,td {
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: alias;
+    }
+th{
+    color:red;
+    background-color: black;
+    text-align: center;
+}
+td{
+    background-color: gainsboro;
+}
+=====================================================================================
+home.component.html
+======================================================================
+<br>
+<section><div class="updates"><span style='font-size:20px;'>&#9732;</span> Latest Updates</div>
+<marquee width="300px" height="300px" behavior="scroll" direction="up"  style="border:2px solid red; border-radius: 4px;"><span class="updates1"><span style='font-size:20px;'>&#10102;</span> NMMS scheme is now open for only the students of Rajasthan. Students can register till 10/03/2022 , Institutes can verify till 15/03/2022, defect applications can be submitted till 15/03/2022. District nodal officers can verify till 15/03/2022</span>
+    <br><br>
+ <span class="updates1"><span style='font-size:20px;'>&#10103;</span> Prematric Labour Scheme and Pre Matric Minority Scheme(Central Sector) Institute verification dates have been extended till 15-01-2022 and District/State verification dates have been extended till 31-01-2022</span>
+ <br><br>
+<span class="updates1"><span style='font-size:20px;'>&#10104;</span> Applications where there is a mismatch in aadhaar details can submit their applications now</span><br><br>
+<span class="updates1"><span style='font-size:20px;'>&#10105;</span> AY 2021-22 all grievances related to the different schemes should be addressed to the grievance officer of the scheme who are appointed by the concerned ministries. The details of grievance officers is available under “Services” in the first page of the portal.</span><br><br>
+<span class="updates2"> <span style='font-size:20px;'>&#10106;</span> <b>Attention Institutes</b></span><br><br>
+<span class="updates3">The institutes, not having login credentials are advised to fill the KYC Registration Form and get it approved by District Nodal Officer (DNO) or State Nodal Officer (SNO).</span><br><br>
+<span class="updates3"><span style='font-size:20px;'>&#10107;</span> Option to apply for Institute KYC Registration is available under SERVICES section on the portal.</span><br><br>
+<span class="updates3"><span style='font-size:20px;'>&#10108;</span> The detailed operational steps involved in filling the Institute KYC Registration Form is available under "Important Documents" section on the portal.</span><br><br>
+<span class="updates4"><span style='font-size:20px;'>&#10109;</span> Standard Operating Procedures for NSP</span><br><br>
+<span class="updates1"><span style='font-size:20px;'>&#10110;</span> Students applying from the State of Jharkhand in “CENTRAL SECTOR SCHEME OF SCHOLARSHIPS FOR COLLEGE AND UNIVERSITY STUDENTS” of MHRD (DOHE) are requested to enter their 12th Roll code along with their roll no in the application form.</span><br><br>
+<span class="updates1"> example – Roll Code is 11066 and Roll No is 20168</span><br><br>
+<span class="updates3"><span style='font-size:20px;'>&#10111;</span> For Jharkhand Board Students has to enter 1106620168 format (RollcodeRollNo) in Roll No Column of Application .</span></marquee>
+</section>
+<section>
+  <div class="updates"><span style='font-size:25px;'>&#9742;</span> Help Desk </div>
+<div class="helpdesk1"><p>Candidates can contact the Help Desk for resolution of the technical problems</p>
+<div class="helpdesk"><span style='font-size:25px;'>&#9990;</span>0120 - 6619540
+  <br>
+  <span style='font-size:20px;'>&#9993;</span> helpdesk@nsp.gov.in
+</div></div>
+</section>
+=============================================================================
+home.component.css
+=======================================================================
+.updates{
+    font-size:large;
+    background-size: auto;
+    background-color: rgb(40, 216, 240);
+}
+.updates1{
+    color: rgb(228, 52, 75);
+}
+.updates2{
+    color: rgb(17, 158, 88);
+}
+.updates3{
+    color: rgb(75, 218, 47);
+}
+.updates4{
+    color: rgb(153, 54, 54);
+}
+.helpdesk{
+    color: rgb(190, 35, 35);
+    font-size: 20px;
+}
+.helpdesk1{
+    border:2px solid red;
+    border-radius: 4px;
+    height: 170px;
+    width: 300px;
+===================================================================
+app-routing.module.ts
+=========================================
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './Home/home.component';
+import { AboutusComponent } from './AboutUs/aboutus.component';
+import { ContactusComponent } from './ContactUs/contactus.component';
+import { NewregistrationComponent } from './NewRegistration/newregistration.component';
+import { prepareSyntheticListenerFunctionName } from '@angular/compiler/src/render3/util';
+import { LoginComponent } from './login/login.component';
+
+const routes: Routes = [
+  {path:'Home',component:HomeComponent},
+  {path:'AboutUs',component:AboutusComponent},
+  {path:'ContactUs',component:ContactusComponent},
+  {path:'NewRegistration',component:NewregistrationComponent},
+  {path:'Login',component:LoginComponent}
+];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }
